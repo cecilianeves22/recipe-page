@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 15px;
+}
+
+
+.container {
+    background-color: white;
+    width: 420px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 24px;
+    color: hsl(24, 45%, 30%);
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+
+.preparation-recipe {
+    background-color: hsl(332, 51%, 95%);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+ul, ol {
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+    padding-left: 20px;
+}
+
+li {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 5px;
+}
+
+
+/* tabela de nutrição */
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-top: 10px;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid hsl(30, 18%, 80%); 
+}
+
+.nutrition-table tr:last-child {
+    border-bottom: none; /* remove a linha do último item */
+}
+
+.nutrition-table td {
+    padding: 10px 0;
+}
+
+.nutrition-table td:first-child {
+    text-align: left;
+}
+
+.nutrition-table td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.attribution{
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+}
